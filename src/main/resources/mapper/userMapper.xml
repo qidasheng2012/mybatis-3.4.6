@@ -5,7 +5,7 @@
     <select id="getUserById" resultType="com.it.domain.User" parameterType="int">
         SELECT
             id,
-            NAME,
+            name,
             age
         FROM
             t_user
